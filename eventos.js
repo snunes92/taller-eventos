@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {//nos aseguramos de q
     const saludarButton = document.getElementById("saludarButton");
 
     miDiv.addEventListener("click", function (event) {
-        event.stopPropagation(); // Detiene la propagación del evento en el div
         alert("Hola! Soy el div");
     });
 
