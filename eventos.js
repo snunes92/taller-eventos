@@ -4,4 +4,4 @@ document.addEventListener("DOMContentLoaded", function () {//nos aseguramos de q
     miDiv.addEventListener("click", function () {
         alert("Hola! Soy el div");
     });
-};
+});
